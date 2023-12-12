@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/desktop_window-master.dia",
+    "emit-module-dependencies" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/desktop_window-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/desktop_window-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/desktop_window-master.swiftdeps"
+  },
+  "/Users/mihailcernysevskii/.pub-cache/hosted/pub.dev/desktop_window-0.4.0/macos/Classes/DesktopWindowPlugin.swift" : {
+    "const-values" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.swiftconstvalues",
+    "dependencies" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.d",
+    "diagnostics" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.o",
+    "llvm-bc" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.bc",
+    "object" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.o",
+    "swift-dependencies" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin.swiftdeps",
+    "swiftmodule" : "/Users/mihailcernysevskii/Downloads/flutter_spotify_ui-main/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/Objects-normal/arm64/DesktopWindowPlugin~partial.swiftmodule"
+  }
+}
