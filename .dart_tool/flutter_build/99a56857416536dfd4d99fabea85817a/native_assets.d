@@ -1,0 +1,1 @@
+ /Users/mihailcernysevskii/Documents/projects/DAYTIME-PC/.dart_tool/flutter_build/99a56857416536dfd4d99fabea85817a/native_assets.yaml: 
