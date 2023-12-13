@@ -61,19 +61,22 @@ class _TaskPageState extends State<TaskPage> {
     return Body(
       widget: Column(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              CustomContainer(
-                color: UTILSConstants.black,
-                widget: const Row(),
-              ),
-              CustomButton(
-                color: UTILSConstants.white,
-                text: AppLocalizations.current.add,
-                tap: goToCreate,
-              ),
-            ],
+          SizedBox(
+            height: size.height * 0.1,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                CustomContainer(
+                  color: UTILSConstants.black,
+                  widget: const Row(),
+                ),
+                CustomButton(
+                  color: UTILSConstants.white,
+                  text: AppLocalizations.current.add,
+                  tap: goToCreate,
+                ),
+              ],
+            ),
           ),
           SizedBox(
             height: getHeight(620),

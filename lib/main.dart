@@ -10,6 +10,7 @@ import 'package:flutter_spotify_ui/localization/app_localization.dart';
 import 'package:flutter_spotify_ui/manager/get.it/app_provider.dart';
 import 'package:flutter_spotify_ui/manager/provider/ordinaryProvider.dart';
 import 'package:flutter_spotify_ui/manager/tasks_bloc/tasks_bloc.dart';
+import 'package:flutter_spotify_ui/utils/constants/constants_uikit.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -68,6 +69,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Spotify UI',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: UTILSConstants.purple,
+          brightness: Brightness.dark,
+        ),
+      ),
       localizationsDelegates: const [
         AppLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
@@ -77,7 +84,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: const [
         Locale('en', ''),
       ],
-      initialRoute: AppRoutes.splashScreen,
+      initialRoute: AppRoutes.mainScreen,
       routes: AppRoutes.routes,
     );
   }
