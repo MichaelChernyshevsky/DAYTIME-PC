@@ -10,7 +10,7 @@ jobs:
   
 - job: SignIn
   pool:
-    vmImage: 'windows-2019'
+    vmImage: 'windows-latest'
   
   steps:
 
